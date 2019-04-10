@@ -1,0 +1,27 @@
+body {
+    background: #F7F7F7;
+}
+
+/*for paginate*/
+a.disabled {
+    color: gray;
+    pointer-events: none;
+}
+
+/*Task status*/
+i.done {
+    color: green;
+    font-size: larger;
+}
+tr.complete {
+    color: gray;
+}
+
+/*Task sort*/
+.sort.disabled {
+    color: gray;
+    font-size: larger;
+}
+i.sort {
+    color: #007bff;
+}
